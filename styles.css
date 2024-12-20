@@ -19,15 +19,19 @@ body {
     margin-left: 13%;
 }
 .container{
-    display: grid;
-    gap: 32px;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.a a{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+    width: 1080px;
+    height: 72px;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    gap: 32px;
+}
+a{
     text-decoration: none;
     color: black;
     padding: 2vw;
@@ -141,6 +145,54 @@ p{
 
 
 }
+.subscribe-form input{
+    width: Fill (431px)px;
+height: Fill (48px)px;
+padding: 8px 12px 8px 12px;
+gap: 8px;
+border-radius: 8px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+font-family: Roboto Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 407px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.subscribe-form button{
+    width: 109px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    width: Hug(157px)px ;
+height: Hug(48px)px ;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 8px ;
+opacity: 0px;
+
+}
+.subscribe-form{
+    width: Fixed (600px)px;
+    height: Hug (48px)px;
+    gap: 12px;
+    opacity: 0px;
+}
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -153,17 +205,62 @@ p{
     border-radius: 4px;
 }
 .jpg {
-    width: 35.23px;
-    height: 35.23px;
-    margin: 5px;
-    gap: px;
-}
-.footer-contact-btn{
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 4px;
-}
+    width: 48px;
+    height: 48px;
+    padding: 6.4px 6.4px 6.37px 6.4px;
+    gap: 0px;
+    opacity: 0px;
 
+}
+.footer-btn{
+    width: Hug (169px)px;
+    height: Hug (48px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Roboto Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.footer-btn p{
+    font-family: Bebas Neue, ;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 183px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-bottom{
+    width: Fill (1,344px)px;
+    height: Hug (48px)px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+
+}
+.social-links{
+    width: Hug (208px)px;
+    height: Hug (48px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: repeat(3, 1fr); 
