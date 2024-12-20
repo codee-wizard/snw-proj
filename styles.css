@@ -153,6 +153,9 @@ gap: 8px;
 border-radius: 8px;
 border: 1px 0px 0px 0px;
 opacity: 0px;
+width: 407px;
+gap: 0px;
+opacity: 0px;
 font-family: Roboto Mono;
 font-size: 20px;
 font-weight: 400;
@@ -160,31 +163,27 @@ line-height: 24px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-width: 407px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
 
 
 }
 .subscribe-form button{
-    width: 109px;
-height: 24px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto Mono;
+    font-family: Roboto Mono;
+    height: 43px;
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-    width: Hug(157px)px ;
-height: Hug(48px)px ;
+width: Hug (157px)px;
+height: Hug (48px)px;
 padding: 12px 24px 12px 24px;
 gap: 0px;
 border-radius: 8px ;
 opacity: 0px;
+background-color: black;
+color: white;
+
 
 }
 .subscribe-form{
@@ -199,11 +198,7 @@ opacity: 0px;
     align-items: center;
     padding: 1rem 0;
 }
-.button{
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-}
+
 .jpg {
     width: 48px;
     height: 48px;
