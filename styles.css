@@ -3,8 +3,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    color: #333;
     background-color: #f9f9f9;
 }
 
@@ -16,7 +14,6 @@ body {
     display: flex;
     align-items: center;
     border-radius: 16px;
-
     background: rgba(51, 51, 51, 0.08);
     margin-top: 2%;
     margin-left: 13%;
@@ -87,7 +84,7 @@ a{
 
 /* projectss */
 .projects {
-    padding: 3rem 5%;
+    padding: 5%;
 }
 p{
     font-family: 'Roboto mono', monospace;
@@ -106,7 +103,7 @@ p{
     border-radius: 10px;
 }
 
-/* About Section */
+/* About sec */
 .about {
     display: flex;
     justify-content: space-between;
@@ -128,7 +125,7 @@ p{
 
 
 .footer {
-    padding: 2rem 5%;
+    padding: 5%;
     background-color: #fff;
     text-align: center;
 }
@@ -168,7 +165,7 @@ p{
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: repeat(3, 1fr); 
-        overflow-x: auto; 
+        overflow: auto; 
     }
 
     .nav-links {
