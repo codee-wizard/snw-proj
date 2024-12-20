@@ -19,13 +19,15 @@ body {
     margin-left: 13%;
 }
 .container{
-    display: flex;
+    display: grid;
+    gap: 32px;
     align-items: center;
     justify-content: space-around;
     width: 100%;
 }
 
-a{
+.a a{
+    display: flex;
     text-decoration: none;
     color: black;
     padding: 2vw;
