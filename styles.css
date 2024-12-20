@@ -166,7 +166,7 @@ p{
     width: 35.23px;
     height: 35.23px;
     margin: 5px;
-    gap: px;
+
 }
 @media (max-width: 768px) {
     .project-grid {
